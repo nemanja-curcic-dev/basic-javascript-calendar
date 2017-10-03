@@ -1,0 +1,28 @@
+#calendar{
+    text-align: center;
+}
+
+#calendar thead{
+    background-color: #A8CBff;
+    color: white;
+}
+
+#calendar a{
+    text-decoration: none;
+    color: white;
+}
+
+.current-month-days{
+    background-color: #89b5fe;
+    color: white;
+}
+
+.current-day{
+    background-color: yellow;
+    color: #89b5fe;
+}
+
+.not-current-month-days{
+    background-color: lightgrey;
+    color: darkgray;
+}

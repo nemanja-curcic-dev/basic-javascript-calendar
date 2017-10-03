@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Calendar</title>
+    <link rel="stylesheet" href="mine_calendar.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="mine_calendar.js"></script>
+</head>
+<body>
+
+        <table id="calendar" width="400" height="300">
+            <thead>
+                <tr style="text-align: center" id="month">
+                    <th colspan="1" ><a id="month_back" href="#">&lt&lt</a></th>
+                    <th colspan="5" id="selected_month"></th>
+                    <th colspan="1" ><a id="month_forward" href="#">&gt&gt</a></th>
+                </tr>
+                <tr id="days">
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+            </thead>
+            <tbody id="calendar_body">
+
+            </tbody>
+        </table>
+
+</body>
+</html>
